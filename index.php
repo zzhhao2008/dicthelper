@@ -174,8 +174,8 @@ switch ($_COOKIE['filter']) {
         if (eng == '') {
             alert('请输入英文单词');
         }
-        var appid = '20230128001541935';
-        var key = 'nslobMNQzItNWD3RAypZ';
+        var appid = '';
+        var key = '';
         var salt = (new Date).getTime();
         var query = eng;
         // 多个query可以用\n连接  如 query='apple\norange\nbanana\npear'
